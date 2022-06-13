@@ -1,0 +1,95 @@
+.flexsearch{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: flex-start;
+    }
+    .flexsearch> div{
+    background-color:burlywood;
+    margin-left: 1150px;
+    padding: 20px;
+    font-size: 15px;
+    
+    border-width: 5px;
+    }
+
+    .flexfilter{
+    display: flex;
+    background-color: white;
+    gap: 50px;
+
+    }
+    
+    .flexfilter > div {
+    background-color:lightsalmon;
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    }
+
+    
+
+    .flexrow1{
+    display: flex;
+    flex-direction: column;
+    background-color: lavenderblush;
+    width: 300px;
+    height: 700px;
+    gap:-50px;
+    margin-left: 200px;
+    border-radius: 20px;
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .flexrow1 > div {
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 15px;
+    }
+
+    .flexrow2{
+    display: flex;
+    flex-direction: column;
+    background-color:gold;
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 20px;
+    
+    }
+
+    .flexrow2 > div {
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 15px;
+    }
+    .flexrow3{
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+    width: 300px;
+    margin-right: 200px;
+    border-radius: 20px;
+    }
+
+    .flexrow3 > div {
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 15px;
+    }
